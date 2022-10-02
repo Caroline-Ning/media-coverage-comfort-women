@@ -1,0 +1,66 @@
+.tl-timeline h2.tl-headline-title {
+  margin-top: 10px;
+  font-family: "Cormorant", serif;
+  text-transform: none;
+  width: 1000px;
+  font-size: 40px !important;
+  line-height: 50px !important;
+}
+.tl-timeline h2.tl-headline {
+  margin-top: 10px;
+  font-family: "Cormorant", serif;
+  text-transform: none;
+  width: 1000px;
+}
+.tl-timemarker-text h2 {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px !important;
+}
+.tl-text-content {
+  width: 900px;
+}
+.tl-timeline h3.tl-headline-date {
+  font-family: "Roboto", sans-serif !important;
+}
+.tl-timeline p {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif !important;
+  font-size: 17.5px !important;
+  line-height: 1.6rem !important;
+}
+.tl-timeline .tl-slidenav-next,
+.tl-timeline .tl-slidenav-previous,
+.tl-timeline .tl-message,
+.tl-timeline .tl-timegroup-message {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif !important;
+  text-transform: none !important;
+}
+.tl-timeline p a {
+  text-decoration: none;
+  color: rgb(166, 166, 166);
+}
+.tl-timeline p a:hover {
+  color: #b26c6c;
+}
+.tl-text {
+  width: 100%;
+}
+.tl-text-content {
+  color: #7c6868;
+  margin-top: 15px;
+}
+.tl-text-content p {
+  color: #7c6868;
+}
+#subtitle {
+  font-size: 50px;
+}
+
+#timeline-embed {
+  margin-bottom: 130px;
+}
+
+.tl-slide-scrollable-container {
+  margin: 0 auto;
+}

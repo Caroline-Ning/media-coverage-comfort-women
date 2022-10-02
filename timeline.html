@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Timeline</title>
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Timeline css -->
+    <link title="timeline-styles" rel="stylesheet" href="css/timeline.css">
+    <link title="timeline-styles" rel="stylesheet" href="css/timeline-overwrite.css">
+
+</head>
+
+<body>
+
+    <!-- Preloader start-->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- Preloader end  -->
+
+    <!--Header-->
+    <header class="header header-alt">
+        <div class="main-overlay"></div>
+        <div class="container-fluid px-4">
+            <div class="primary-nav sticky">
+                <nav class="navbar navbar-expand-lg">
+                    <!-- menu options -->
+                    <div class="collapse navbar-collapse">
+
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="index.html">Home </a>
+                            </li>
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Visualizations
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="timeline.html" class="dropdown-item">Timeline</a></li>
+                                    <li><a href="overview.html" class="dropdown-item">Overview</a>
+                                    <li><a href="categories.html" class="dropdown-item">Categories</a>
+                                    </li>
+                                </ul>
+                            </li><!--  viz options end -->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Header/-->
+
+    <!-- Timeline -->
+    <div id='timeline-embed' style="width: 100%; height: 800px"></div>
+
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="m-sm-3 small text-center">
+                        <span>Caroline Ning</span>&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/in/caroline-xueqi-n-66753b238/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>&nbsp;
+                        <a href="https://www.instagram.com/carrot_line_/" target="_blank">
+                            <i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer/-->
+
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/main.js" defer></script>
+
+    <!-- Timeline -->
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    <script type="text/javascript">
+        timeline = new TL.Timeline('timeline-embed',
+            'https://docs.google.com/spreadsheets/d/1ipR1X2q7f1EwW29ocLqL8ULyDhyHYF2LqkvuF3Jd1Lk/edit#gid=0');
+    </script>
+</body>
+
+</html>
