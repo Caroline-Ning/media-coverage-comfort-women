@@ -19,7 +19,7 @@ html * {
 }
 
 body {
-  line-height: 30px;
+  line-height: 28px;
   font-weight: 400;
   position: relative;
   height: 100%;
@@ -27,7 +27,7 @@ body {
   box-sizing: border-box;
 }
 p {
-  font-size: 17.5px;
+  font-size: 15.5px;
 }
 h1,
 h2,
@@ -130,17 +130,20 @@ blockquote p.body-font {
   line-height: 2.125rem;
 }
 
-.ame-link,.arrow-down {
+.ame-link,
+.arrow-down {
   color: #121213;
-  font-size: 17.5px;
+  font-size: 16px;
   font-weight: 600;
   font-family: "Cormorant", serif;
 }
-.ame-link:hover,.arrow-down:hover {
+.ame-link:hover,
+.arrow-down:hover {
   cursor: pointer;
   color: #8d706b;
 }
-.ame-link i,.arrow-down i {
+.ame-link i,
+.arrow-down i {
   margin-left: 5px;
   -webkit-transform: translate(0, 1px);
   -ms-transform: translate(0, 1px);
@@ -149,28 +152,28 @@ blockquote p.body-font {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.ame-link:hover i{
+.ame-link:hover i {
   color: #8d706b;
   -webkit-transform: translate(4px, 1px);
   -ms-transform: translate(4px, 1px);
   transform: translate(4px, 1px);
 }
 
-.down:hover{
+.down:hover {
   color: #8d706b;
   -webkit-transform: translate(0px, 4px);
   -ms-transform: translate(0px, 4px);
   transform: translate(0px, 4px);
 }
 
-.up:hover{
+.up:hover {
   color: #8d706b;
   -webkit-transform: translate(0px, -4px);
   -ms-transform: translate(0px, -4px);
   transform: translate(0px, -4px);
 }
 
-.more-text{
+.more-text {
   display: none;
 }
 
@@ -263,7 +266,7 @@ blockquote::before,
 }
 
 .sec-title {
-  font-size: 2.25rem;
+  font-size: 1.8rem;
   /* text-transform: capitalize; */
   margin-bottom: 1.875rem;
   line-height: 3.125rem;
@@ -322,7 +325,7 @@ blockquote::before,
 }
 
 .section-title {
-  font-size: 2.5625rem;
+  font-size: 2.05rem;
   margin-bottom: 4.375rem;
   display: inline-block;
   padding: 0 7rem;
@@ -402,7 +405,7 @@ blockquote::before,
 a#scrollUp {
   right: 2.5rem;
   bottom: 3.75rem;
-  font-size: 17.5px;
+  font-size: 16px;
   text-align: center;
   line-height: 3.125rem;
   border-radius: 50%;
@@ -676,7 +679,7 @@ a#scrollUp:hover {
 }
 .navbar .navbar-nav .nav-link {
   color: #121213;
-  font-size: 14px;
+  font-size: 12px;
   padding: 20px 15px;
   opacity: 0.75;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
@@ -830,7 +833,7 @@ ul.megamenu li.blog-item .entry-thumb img {
   transition: all 0.4s ease-in-out;
 }
 ul.megamenu li.blog-item h3 {
-  font-size: 17.5px;
+  font-size: 16px;
   line-height: 1.4;
   padding: 0 0.5rem;
 }
@@ -883,7 +886,7 @@ ul.megamenu li.blog-item:hover img {
   padding: 5px 25px;
   clear: both;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   color: rgba(18, 18, 19, 0.75);
   text-align: inherit;
   text-decoration: none;
@@ -1606,7 +1609,7 @@ form .form-group textarea {
   height: 100%;
 }
 .promo-txt p {
-  font-size: 17px;
+  font-size: 15px;
 }
 @media only screen and (max-width: 1460px) {
   .promo-txt {
@@ -1743,7 +1746,7 @@ form .form-group textarea {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #hero-slider-two .item,
   .promo-post .item {
-    padding: 17.5rem 0 9.375rem;
+    padding: 16rem 0 9.375rem;
   }
 }
 #hero-slider-two .item.overly::before,
@@ -1973,8 +1976,8 @@ form .form-group textarea {
   margin-left: 0;
 }
 .single-entry .entry-content h3 {
-  font-size: 1.8125rem;
-  line-height: 2.375rem;
+  font-size: 1.7rem;
+  line-height: 1.8rem;
 }
 .single-entry .entry-thumb {
   position: relative;
@@ -2035,7 +2038,7 @@ form .form-group textarea {
   color: #121213;
 }
 .single-entry p {
-  font-size: 17.5px;
+  font-size: 14px;
   line-height: 1.6;
 }
 .single-entry:hover .entry-thumb::before {
@@ -2175,7 +2178,7 @@ form .form-group textarea {
 }
 
 .entry-sm h3 {
-  font-size: 17.5px;
+  font-size: 16px;
   padding: 0 10px;
   font-weight: 700;
   line-height: 1.6;
@@ -2245,7 +2248,7 @@ form .form-group textarea {
   }
 }
 .read-more {
-  margin-top: 1.875rem;
+  /* margin-top: 1.875rem; */
   display: inline-block;
   /* padding: 0.75rem 1.875rem; */
   text-transform: uppercase;
@@ -2308,7 +2311,7 @@ form .form-group textarea {
 .tab-post {
   background-size: cover;
   background-position: center;
-  padding: 10rem 0rem 1.25rem;
+  padding: 6rem 0rem 1.25rem;
   background-attachment: fixed;
 }
 
@@ -2358,7 +2361,7 @@ form .form-group textarea {
 }
 
 .tab-post .tab-content {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .tab-post .nav-pills li {
@@ -2445,7 +2448,7 @@ form .form-group textarea {
 }
 
 .categories h4 {
-  font-size: 17.5px;
+  font-size: 16px;
   padding: 0 0.9375rem;
   display: inline-block;
 }
@@ -3279,7 +3282,7 @@ blockquote.post-tags::before,
 }
 .about-author .social-share a {
   color: #8d706b;
-  font-size: 17.5px;
+  font-size: 16px;
   margin-right: 0.875rem;
 }
 
@@ -3893,7 +3896,7 @@ form .btn {
   color: rgb(208, 177, 168);
 }
 .data-wrap {
-  min-height: 350px;
+  min-height: 300px;
 }
 
 .viz {
@@ -3930,6 +3933,4 @@ form .btn {
   border: 1px solid #8d706b;
 } */
 
-.bold{
-  font-weight: bold;
-}
+
