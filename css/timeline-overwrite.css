@@ -21,6 +21,7 @@
 }
 .tl-timeline h3.tl-headline-date {
   font-family: "Roboto", sans-serif !important;
+  margin-top: 10px;
 }
 .tl-timeline p {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
