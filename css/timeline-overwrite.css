@@ -65,3 +65,7 @@
 .tl-slide-scrollable-container {
   margin: 0 auto;
 }
+
+.tl-timegroup .tl-timegroup-message {
+  color: #c4c4c4 !important;
+}
