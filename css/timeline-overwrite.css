@@ -48,7 +48,6 @@
   width: 100%;
 }
 .tl-text-content {
-  z-index: 999 !important;
   color: #7c6868;
   margin-top: 15px;
 }
@@ -69,4 +68,8 @@
 
 .tl-timegroup .tl-timegroup-message {
   color: #c4c4c4 !important;
+}
+
+.tl-slider-container-mask {
+  z-index: 999 !important;
 }
