@@ -2211,7 +2211,7 @@
 ================================================== */
 /* Mobile, iPhone and skinny
 ================================================== */
-/* .tlanimate {
+.tlanimate {
   -webkit-transform: translateZ(0);
   -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;
@@ -2235,7 +2235,7 @@
   -moz-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
   -o-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
   transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-} */
+}
 /* SLIDE
 ================================================== */
 .tl-slide {
