@@ -12,9 +12,9 @@
   text-transform: none;
   width: 1000px;
 }
-h2.tl-headline {
+/* h2.tl-headline {
   width: 800px;
-}
+} */
 .tl-timemarker-text h2 {
   font-family: "Roboto", sans-serif !important;
   font-size: 15px !important;
