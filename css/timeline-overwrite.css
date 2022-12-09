@@ -1,4 +1,4 @@
-/* .tl-timeline h2.tl-headline-title {
+.tl-timeline h2.tl-headline-title {
   margin-top: 10px;
   font-family: "Cormorant", serif;
   text-transform: none;
@@ -11,7 +11,7 @@
   font-family: "Cormorant", serif;
   text-transform: none;
   width: 1000px;
-} */
+}
 .tl-timemarker-text h2 {
   font-family: "Roboto", sans-serif !important;
   font-size: 15px !important;
