@@ -1,0 +1,32 @@
+.tl-timeline p a {
+  text-decoration: none;
+  color: rgb(166, 166, 166);
+}
+.tl-timeline p a:hover {
+  color: #b26c6c;
+}
+.tl-text {
+  width: 100%;
+}
+.tl-text-content {
+  color: #7c6868;
+  margin-top: 15px;
+}
+.tl-text-content p {
+  color: #7c6868;
+}
+#subtitle {
+  font-size: 50px;
+}
+
+#timeline-embed {
+  margin-bottom: 130px;
+}
+
+.tl-slide-scrollable-container {
+  margin: 0 auto;
+}
+
+.tl-timegroup .tl-timegroup-message {
+  color: #c4c4c4 !important;
+}
