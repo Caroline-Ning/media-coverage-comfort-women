@@ -50,7 +50,7 @@
   font-size: 15px !important;
 }
 
-/* .tl-timeline h3.tl-headline-date {
+.tl-timeline h3.tl-headline-date {
   font-family: "Roboto", sans-serif !important;
   margin-top: 10px;
 }
@@ -60,7 +60,7 @@
   font-size: 15px !important;
   line-height: 1.6rem !important;
 }
-.tl-timeline .tl-slidenav-next,
+/*.tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous,
 .tl-timeline .tl-message,
 .tl-timeline .tl-timegroup-message {
