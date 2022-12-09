@@ -1,8 +1,8 @@
-.tl-timeline h2.tl-headline-title {
+/* .tl-timeline h2.tl-headline-title {
   margin-top: 10px;
   font-family: "Cormorant", serif;
   text-transform: none;
-  /* width: 1000px; */
+  width: 1000px;
   font-size: 32px !important;
   line-height: 40px !important;
 }
@@ -10,18 +10,13 @@
   margin-top: 10px;
   font-family: "Cormorant", serif;
   text-transform: none;
-  /* width: 850px; */
 }
-/* h2.tl-headline {
-  width: 800px;
-} */
+
 .tl-timemarker-text h2 {
   font-family: "Roboto", sans-serif !important;
   font-size: 15px !important;
 }
-/* .tl-text-content {
-  width: 900px;
-} */
+
 .tl-timeline h3.tl-headline-date {
   font-family: "Roboto", sans-serif !important;
   margin-top: 10px;
@@ -39,7 +34,7 @@
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif !important;
   text-transform: none !important;
-}
+} */
 .tl-timeline p a {
   text-decoration: none;
   color: rgb(166, 166, 166);
