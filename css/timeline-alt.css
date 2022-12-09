@@ -60,11 +60,11 @@
   font-size: 15px !important;
   line-height: 1.6rem !important;
 }
-/*.tl-timeline .tl-slidenav-next,
+.tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous,
 .tl-timeline .tl-message,
 .tl-timeline .tl-timegroup-message {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif !important;
   text-transform: none !important;
-} */
+}
